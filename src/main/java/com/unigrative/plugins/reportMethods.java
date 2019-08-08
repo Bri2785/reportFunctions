@@ -1,9 +1,11 @@
 package com.unigrative.plugins;
 
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public final class testMethods {
+public final class reportMethods {
 
     public static boolean stateIsRestricted(final String stateList, final String currentStateAbbr){
 
@@ -25,4 +27,17 @@ public final class testMethods {
 //        return restrictedStates.stream().anyMatch(s -> s.equalsIgnoreCase(currentStateAbbr)); //stream not supported in iReport
     }
 
+    public static BufferedImage rotateClockwise90(BufferedImage src) {
+        int width = src.getWidth();
+        int height = src.getHeight();
+
+        BufferedImage dest = new BufferedImage(height, width, src.getType());
+
+        Graphics2D graphics2D = dest.createGraphics();
+        graphics2D.translate((height - width) / 2, (height - width) / 2);
+        graphics2D.rotate(Math.PI / 2, height / 2, width / 2);
+        graphics2D.drawRenderedImage(src, null);
+
+        return dest;
+    }
 }
