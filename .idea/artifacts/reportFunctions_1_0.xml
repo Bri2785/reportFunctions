@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="reportFunctions-1.0">
-    <output-path>P:/</output-path>
-    <root id="archive" name="reportFunctions-1.0.jar">
-      <element id="module-output" name="reportFunctions" />
-    </root>
-  </artifact>
-</component>
