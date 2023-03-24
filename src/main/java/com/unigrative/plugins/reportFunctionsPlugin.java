@@ -150,20 +150,6 @@ public class reportFunctionsPlugin extends FishbowlPlugin implements PropertyGet
 
     }
 
-
-    public static boolean stateIsRestricted(final String stateList, final String currentStateAbbr){
-
-        if (stateList.isEmpty()){
-            return false;
-        }
-        String[] values = stateList.split("\\s*,\\s*");
-        ArrayList<String> restrictedStates = new ArrayList(Arrays.asList(values));
-
-        return restrictedStates.stream().anyMatch(s -> s.equalsIgnoreCase(currentStateAbbr));
-    }
-
-
-
     private void initLayout() {
         //PANELS TO BE ADDED TO THE TABBED LAYOUT IF DESIRED
         JLabel lblMessage = new JLabel();
