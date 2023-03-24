@@ -1,5 +1,5 @@
 
-package com.unigrative.plugins.util.property;
+package com.fbi.plugins.unigrative.reportFunctions.util.property;
 
 @FunctionalInterface
 public interface PropertyGetter

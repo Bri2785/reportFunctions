@@ -1,4 +1,4 @@
-package com.unigrative.plugins;
+package com.fbi.plugins.unigrative.reportFunctions;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

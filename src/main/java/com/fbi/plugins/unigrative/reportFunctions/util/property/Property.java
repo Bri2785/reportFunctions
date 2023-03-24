@@ -2,9 +2,9 @@
 // Decompiled by Procyon v0.5.30
 // 
 
-package com.unigrative.plugins.util.property;
+package com.fbi.plugins.unigrative.reportFunctions.util.property;
 
-import com.unigrative.plugins.util.property.reader.StringReader;
+import com.fbi.plugins.unigrative.reportFunctions.util.property.reader.StringReader;
 
 public final class Property
 {

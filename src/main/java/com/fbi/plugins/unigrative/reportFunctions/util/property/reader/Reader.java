@@ -1,5 +1,5 @@
 
-package com.unigrative.plugins.util.property.reader;
+package com.fbi.plugins.unigrative.reportFunctions.util.property.reader;
 
 @FunctionalInterface
 public interface Reader<T>
